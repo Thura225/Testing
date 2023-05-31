@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    height: 75px;
+    background-color: midnightblue;
+    margin: 0;
+    padding: 0;
+}
+
+header .container{
+    width: fit-content;
+    height: 75px;
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
